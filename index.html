@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Adoption Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="img/pet-logo.webp" alt="logo" />
+        </div>
+        <ul>
+            <li class="items"><a href="#home">Home</a></li>
+            <li class="items"><a href="#services-container">Services</a></li>
+            <li class="items"><a href="#client-section">Our clients</a></li>
+            <li class="items"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to our Pet Adoption Center!</h1>
+        <p>
+            Welcome to our pet adoption website, where we connect loving families
+            with animals in need of a forever home.
+        </p>
+        <p>
+            At our website, you'll find a wide variety of animals looking for
+            homes,from playful puppies<br />
+            and kittens with plenty of love to give.
+        </p>
+        <button class="btn">Shop Now</button>
+    </section>
+
+    <section id="pet-list">
+        <h2>Available Pets</h2>
+        <div class="pet-card">
+            <img src="img/dog.jpeg" alt="Dog" />
+            <h3>Dog</h3>
+            <p>Lifespan: 15-16 years</p>
+            <p>Breed: Labrador</p>
+            <p>Food: Meat, chicken</p>
+            <button>Adopt</button>
+        </div>
+        <div class="pet-card">
+            <img src="img/image1.jpg" alt="Cat" />
+            <h3>Cat</h3>
+            <p>Lifespan: 10-13 years</p>
+            <p>Breed: Bengal cat</p>
+            <p>Food: cooked meat</p>
+            <button>Adopt</button>
+        </div>
+        <div class="pet-card">
+            <img src="img/parrot.jpeg" alt="parrot" />
+            <h3>Parrot</h3>
+            <p>Lifespan: 40-60 years</p>
+            <p>Breed: Cockatiel parrots</p>
+            <p>Food:  Seeds & Fruits</p>
+            <button>Adopt</button>
+        </div>
+        <div class="pet-card">
+            <img src="img/pigeons.jpeg" alt="pigeons" />
+            <h3>Pigeons</h3>
+            <p>Lifespan: 6 years</p>
+            <p>Breed: oriental roller</p>
+            <p>Food:  Seeds &amp; Fruits</p>
+            <button>Adopt</button>
+        </div>
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img/background3.jpg" alt="" />
+                <h2 class="h-secondary center">Expert Advice and Support</h2>
+                <p class="center">
+                    Our experienced team of pet professionals is dedicated to providing
+                    expert advice and support to help you and your new pet settle into
+                    your new life together. We offer a range of services to help you
+                    through the adoption process, including pre-adoption counseling,
+                    behavioral assessments, and training resources.
+                </p>
+            </div>
+            <div class="box">
+                <img src="img/background.jpg" alt="" />
+                <h2 class="h-secondary center">Comprehensive Medical Care</h2>
+                <p class="center">
+                    We believe that every pet deserves access to high-quality medical
+                    care, and we're proud to offer a range of medical services to our
+                    adopters. Our veterinary team provides comprehensive care, including
+                    vaccinations, spay/neuter services, and dental care, to ensure that
+                    your new pet is healthy and ready for adoption.
+                </p>
+            </div>
+            <div class="box">
+                <img src="img/image1.jpg" alt="" />
+                <h2 class="h-secondary center">A Range of Services</h2>
+                <p class="center">
+                    In addition to adoption, we offer a range of services to support pet
+                    owners and wider pet community.This includes grooming, training and
+                    pet supplies as well as community events and educational
+                    resources.Our goal is to provide a comprehensive set of services to
+                    help pet owners care for and enjoy their pets.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="client-section">
+        <h1 class="h-primary center">Our clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="img/logo4.jpeg" alt="Our Client" />
+            </div>
+            <div class="client-item">
+                <img src="img/logo2.png" alt="Our Client" />
+            </div>
+            <div class="client-item">
+                <img src="img/logo3.png" alt="Our Client" />
+            </div>
+            <div class="client-item">
+                <img src="img/logo5.jpeg" alt="Our Client" />
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your Email:" />
+                </div>
+                <div class="form-group">
+                    <label for="phone number">Phone Number:</label>
+                    <input type="phone number" name="phone number" id="phone number"
+                        placeholder="Enter your phone number:" />
+                </div>
+                <div class="form-group">
+                    <label for="Message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.myPet Adoption Website.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>
